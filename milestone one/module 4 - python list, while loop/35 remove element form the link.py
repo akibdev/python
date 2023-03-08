@@ -1,0 +1,11 @@
+list_one = ['samsung', 'apple', 'nokia', 'motorola', 'xiaomi', 'realme', 'asus', 'oppo', 'vivo']
+print(len(list_one))
+list_one.remove('samsung')
+list_one.remove('asus')
+list_one.pop()
+list_one.pop()
+list_one.pop(3)
+list_one.pop(2)
+list_one.clear()
+print(list_one)
+print(len(list_one))
