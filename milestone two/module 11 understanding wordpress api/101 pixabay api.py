@@ -8,6 +8,7 @@ data = r.json()
 image_list = data.get('hits')
 for image in image_list:
     img_link = image.get('largeImageURL')
+    print(img_link)
 
 
 
